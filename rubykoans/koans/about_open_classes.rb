@@ -3,7 +3,6 @@
 require File.expand_path("#{File.dirname(__FILE__)}/neo")
 # class open classes
 class AboutOpenClasses < EdgeCase::Koan
-  # class dog
   class Dog
     def bark
       "WOOF"
@@ -30,7 +29,7 @@ class AboutOpenClasses < EdgeCase::Koan
     assert_equal "WOOF", fido.bark
   end
 
-  # ----------------------------------------------------
+  # ------------------------------------------------------------------
 
   class ::Integer
     def even?
